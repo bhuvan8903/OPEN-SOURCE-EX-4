@@ -8,10 +8,15 @@
  To create a shared directory /common/admin with proper ownership, group access, and permissions, and to verify that the user harry belongs to the required group.
 ## ALGORITHM:
 STEP 1 : sudo mkdir -p /common/admin
+
 STEP 2 : sudo chown root:admin /common/admin
+
 STEP 3 : sudo chmod 2770 /common/admin
+
 STEP 4 : ls -ld /common/admin
+
 STEP 5 : drwxrws--- 2 root admin ... /common/admin
+
 STEP 6 : groups harry
 
 ## OUTPUT :
